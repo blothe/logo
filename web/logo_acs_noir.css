@@ -1,0 +1,62 @@
+@font-face
+{
+ font-family: "Helvetica";
+ src: url("../fonts/HelveticaNeueLTStd-MdCn.otf");
+}
+
+body
+{
+  font-family: "Helvetica", sans-serif;
+  text-align: center;
+}
+
+.upper
+{
+  font-size: 9em;
+}
+
+.chevron
+{
+  font-size: 1.1em;
+  vertical-align: 0.05em;
+  display: inline-block;
+}
+
+.underline
+{
+  display: inline-block;
+  border-bottom: 3px solid black;
+}
+
+#access
+{
+  padding: 0 0 0 0.05em;
+}
+
+#code
+{
+  padding: 0.1em 0.2em 0.1em 0.2em;
+  margin: 0 0 0 -0.1em;
+  display: inline-block;
+  background-color: #d31f43;
+  color: white;
+}
+
+#lt
+{
+  /* just stands here smiling, looking great :) */
+}
+
+#gt
+{
+  margin: 0 0 0 -0.1em;
+}
+
+.lower
+{
+  font-size: 5em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: -0.75em;
+}
